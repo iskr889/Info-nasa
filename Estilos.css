@@ -1,0 +1,105 @@
+* { 
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url(Earth.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header, main, footer {
+    width: 1000px;
+    margin: 20px auto;
+    font-size: 14.5px;
+    color: rgb(255, 255, 255)
+
+}
+
+.nasa {
+    display: inline;
+    margin-bottom: 20px ;
+}
+
+.nasanet {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: 90px;
+    font-family: Algerian;
+}
+
+.menu {
+    width: 100%; 
+    background-color: rgb(31, 67, 121);
+    list-style: none; 
+    text-align: center;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgb(33, 88, 170);
+}
+
+.menu i {
+    margin-right: 10px;
+}
+
+main .arts {
+    width: 68.5%; 
+    float: left; 
+    margin-right: 1.5%; 
+}
+
+main .arts article {
+    margin-bottom: 20px; 
+    padding: 20px; 
+    background-color: rgb(0, 0, 0, .8);
+    border-radius: 20px;
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0.6); 
+    float: left; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    width: 30%;
+    color: black; 
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0); 
+    padding: 10px; clear: both; 
+    text-align: center;
+    border-radius: 20px;
+}
+
+.video {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.discovery {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
